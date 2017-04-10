@@ -6,7 +6,7 @@ body {
     background-image: url("../img/123.jpg ");
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 700px;
     width: 100%;
 }
 .banner img {
@@ -17,16 +17,24 @@ body {
 	border: solid 10px rgba(255,255,255,0.5);
 	width: 20%;
 }
-#banner h2 {
-    padding: 5px 10px;
+.banner h1 {
+	font-size: 50px;
+    text-align: center;  
     margin: auto;
-	background-color: grey;
-	display: inline;
+	
+	color: #fff;
+}
+.imagec {
+	background-image: url("../img/30.jpg");
+	text-align: center;
 }   
+.image img {
+	border-radius: 50%;
+}
 .nav {
     width: 100%;
     height: 100px;
-    padding: 1% 0px;
+    
     background-color: #29b6f6;
     text-align: right;
 }
@@ -40,38 +48,19 @@ body {
 .nav li {
 	color:#ffffff;
     font: left;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
     display: inline;
     list-style-type: none;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 .nav a {
 	color: #ffffff;
 	text-decoration: none;
 	
 } 
-.intro img {
-    display: block;
-    margin: 0px auto;
-    border-radius: 300%;
-	border: solid 10px rgba(0,0,0,0.5);
-	width: 50%;
-	
-}
-.intro h1 {
-    text-align: center;
-    font-size: 60px;
-    color:#1a03af;
-  
-}
-.intro h3 {
-    text-align: center;
-    font-size: 35px;
-    color:000;
-}
 .aboutc {
-	background-color: #BBDEFB;
+	background-image: url("../img/29.jpg");
 	padding: 10px 0px 10px 0px;
 	
 }
@@ -79,7 +68,7 @@ body {
 	width: 75%;
 	margin: auto;
     font-family: Spirax,Times,Serif;
-    color: #e51923;
+    color:#fff;
     padding: 10px 0px 10px 0px;
     font-size: 25px;
     line-height: 2.0em;
@@ -102,7 +91,7 @@ body {
 	
 } 
 .skillc { 
-     background-color:azure;
+     background-image: #fff;
 	 padding: 10px 0px 10px 0px;
 }
 .skills {
@@ -124,16 +113,9 @@ body {
     font-style: normal;
     font-weight: bold;
 	margin: auto;
-    
-}
-.skills ul li {
-    list-style-type: disc;
-    color: #e206c5;
-    font-size: 20px;
-    
 }
 .socialc {
-	background-color: #f0f939;
+	background-color: ivory;
 	padding: 10px 0px 10px 0px;
 	
 }
@@ -147,36 +129,77 @@ body {
     font-family: blackadder ITC;
     color: #8012c9;
 }
+.social h3 {
+	font-size: 30px;
+	color:indigo;
+}
 .social a {
     font-size: 30px;
-	padding: 5%;
+	
     color:#32a8f2
 
 }
 .qualificationc {
-	background-color: azure;
+     background-image: url("../img/b.jpg ");
 	padding: 10px 0px 10px 0px;
+	
+}
+.qualification h2 {
+	color:#fff;
+	font-size: 30px;
 }
 .qualification h3 {
     font-size:60px;
     font-family:broadway,times,serif;
-    color: #ef0414;
+    color: #e51923;
 	
 }   
  .qualification h4 {
     font-size: 45px;
     font-family: blackadder ITC;
-    color: #8012c9;
+    color: #fff;
 }  
 .qualification table {
-    font-size:20px;
-    color: 000;
-    width: 800px;
+    font-size:25px;
+    color: #fff;
+    width: 900px;
     height: 300px;
-    border-color: 000;
+	border-radius: 30%;
+    border-color: #fff;
+}
+.qualification img {
+	border-radius: 50%;
+}
+.thoughtc {
+	background-color: ivory;
+	width: 100%;
+	
+}
+.thought h1 {
+	font-size:60px;
+    font-family:broadway,times,serif;
+    color: #e51923;
+}
+.thought h2 {
+	font-size: 30px;
+} 
+.projectc {
+	background-color:#fff;
+}
+.project img {
+	border-radius: 50%
+}
+.project h1 {
+	font-size:60px;
+    font-family:broadway,times,serif;
+    color: #e51923;
+}
+.project h2 {
+	font-size: 35px;
+	color:#000;
 }
 .footerc {
-	background-color: #f0f939;
+	background-image: url("../img/31.jpg");
 	padding: 10px 0px 10px 0px;
 }   width: ;
 .footer {
@@ -187,13 +210,18 @@ body {
     color:#32a8f2;
 }
 .footer h5 {
-    color:000;
+    color:#fff;
 	font-size: 35px;
 	text-align: center;
 }
 .footer h1 {
     font-size: 50px;
     font-family: bradley hand ITC;
-    color: #e206c5;
+    color: Red;
     text-align: center; 
+	font-weight: bold;
+}
+.footer h2 {
+	color:#fff;
+	font-size: 30px;
 }

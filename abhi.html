@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+     <head>
+	 <link rel="stylesheet"href="css/bootstrap.min.css">
+	     <title> abhi</title>
+		 <script src="js/jquery-2.2.0.min.js"></script>
+		     <script>
+			     $(document).ready(function(e){
+				     $('#bt1').click(function()
+					     {
+					     $('#div1').fadeOut();
+					     $('#div3').fadeOut("slow");
+					     $('#div2').fadeOut(2000);
+					     });
+					 $('#bt2').click(function(){	 
+					     $('#div1').fadeIn();
+					     $('#div3').fadeIn("slow");
+					     $('#div2').fadeIn(2000);
+ 						 });
+          			});
+			</script>		
+	 </head>
+     <body>
+	
+	<center><button id="bt1">BACK</button></center>
+	
+	<center><button id="bt2">MORE PICS</button></center>
+		     <div id="div1">
+	             <img src="1.jpg" width="25%" alt="Abhishek Mishra">
+			 </div><br /><br />
+			 <div id="div2">
+			     <img src="2.jpg" width="25%" alt="Abhishek Mishra">
+			 </div><br />
+     	     <div id="div3">
+			      <img src="3.jpg" width="25%" alt="Abhishek Mishra">
+			 </div><br />
+     </body>
+</html>	 
